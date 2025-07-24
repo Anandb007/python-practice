@@ -1,12 +1,15 @@
-📘 Python Data Types
+📘 Python Data Types 
+
 Python is a dynamically typed language, meaning you don't have to explicitly declare variable types — Python automatically detects them based on the value assigned.
 
 Below are the 4 most common basic data types:
 
 1. 🔢 int (Integer)
+
 Definition: Used to represent whole numbers without a decimal point.
 
 Examples:
+
 age = 25
 
 count = -10
