@@ -7,82 +7,91 @@ Below are the 4 most common basic data types:
 Definition: Used to represent whole numbers without a decimal point.
 
 Examples:
-
-python
-Copy
-Edit
 age = 25
+
 count = -10
+
 year = 2025
+
 Common uses: Age, years, counters, indexes, loop iterations, etc.
 
 2. 🔣 float (Floating Point Number)
+
 Definition: Used to represent numbers with decimals (real numbers).
 
 Examples:
 
-python
-Copy
-Edit
 height = 5.9
+
 salary = 45000.75
+
 temperature = -12.3
+
 Common uses: Precise measurements, financial calculations, scientific data.
 
 3. 🔤 str (String)
+
 Definition: Represents text. Strings are sequences of characters enclosed in quotes.
 
 Examples:
 
-python
-Copy
-Edit
 name = "Anand"
+
 message = 'Hello, world!'
+
 country = "India"
+
 Multiline String Example:
 
-python
-Copy
-Edit
 paragraph = """This is a
+
 multiline string."""
+
 Common uses: Names, messages, addresses, user input, file paths.
 
 4. ✅ bool (Boolean)
+
 Definition: Represents True or False values.
 
 Only two possible values:
 
-python
-Copy
-Edit
 is_student = True
+
 is_employed = False
+
 Common uses: Conditions, flags, logic-based checks, decision making.
 
-🧪 Type Checking
+**🧪 Type Checking**
+
 Use the type() function to check the data type of any variable:
 
-python
-Copy
-Edit
 x = 3.5
+
 print(type(x))  # Output: <class 'float'>
+
 🔄 Type Conversion (Casting)
+
 Python allows you to convert from one type to another using built-in functions:
 
-python
-Copy
-Edit
+
 int("10")       # Converts string to int → 10
+
 float("3.14")   # Converts string to float → 3.14
+
 str(123)        # Converts int to string → "123"
+
 bool("")        # False (empty string)
+
 bool("hello")   # True (non-empty string)
+
 📝 Summary Table
+
 Type	Description	Example
+
 int	Whole numbers	25, -8
+
 float	Decimal numbers	3.14, 0.0
+
 str	Text values	"Anand"
+
 bool	True or False	True, False
